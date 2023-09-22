@@ -1,0 +1,17 @@
+binaries:
+  govulncheck:
+    github: "github.com/golang/vuln"
+    package:
+      project: "golang.org/x/vuln"
+      module: "golang.org/x/vuln/cmd/govulncheck"
+    binary:
+      name: "govulncheck"
+      test: "govulncheck --help"
+  mockgen:
+    github: "github.com/uber-go/mock"
+    package:
+      project: "go.uber.org/mock"
+      module: "go.uber.org/mock/mockgen"
+    binary:
+      name: "mockgen"
+      test: "mockgen --help"
