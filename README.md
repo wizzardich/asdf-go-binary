@@ -8,6 +8,7 @@
 
 # Contents
 
+- [Contents](#contents)
 - [Dependencies](#dependencies)
 - [Install](#install)
 - [Contributing](#contributing)
@@ -15,36 +16,21 @@
 
 # Dependencies
 
-**TODO: adapt this section**
-
 - `bash`, `curl`, `tar`: generic POSIX utilities.
-- `SOME_ENV_VAR`: set this environment variable in your shell config to load the correct version of tool x.
+- `go`: golang installation, best provisioned with `asdf-golang`
 
 # Install
 
 Plugin:
 
 ```shell
-asdf plugin add go-binary
+asdf plugin add <go-binary-name>
 # or
-asdf plugin add go-binary https://github.com/wizzardich/asdf-go-binary.git
+asdf plugin add <go-binary-name> https://github.com/wizzardich/asdf-go-binary.git
+# e.g.
+asdf plugin add mockgen https://github.com/wizzardich/asdf-go-binary.git
 ```
 
-go-binary:
-
-```shell
-# Show all installable versions
-asdf list-all go-binary
-
-# Install specific version
-asdf install go-binary latest
-
-# Set a version globally (on your ~/.tool-versions file)
-asdf global go-binary latest
-
-# Now go-binary commands are available
-go-binary --help
-```
 
 Check [asdf](https://github.com/asdf-vm/asdf) readme for more instructions on how to
 install & manage versions.
