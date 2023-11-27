@@ -15,3 +15,11 @@ binaries:
     binary:
       name: "mockgen"
       test: "mockgen --help"
+  nilaway:
+    github: "github.com/uber-go/nilaway"
+    package:
+      project: "go.uber.org/nilaway"
+      module: "go.uber.org/nilaway/cmd/nilaway"
+    binary:
+      name: "nilaway"
+      test: "nilaway --help"
