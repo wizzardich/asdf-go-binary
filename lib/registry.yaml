@@ -16,7 +16,7 @@ binaries:
       name: "mockgen"
       test: "mockgen --help"
   nilaway:
-    github: "github.com/uber-go/nilaway"
+    github: "github.com/wizzardich/nilaway"
     package:
       project: "go.uber.org/nilaway"
       module: "go.uber.org/nilaway/cmd/nilaway"
