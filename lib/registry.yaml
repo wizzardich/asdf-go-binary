@@ -23,3 +23,11 @@ binaries:
     binary:
       name: "nilaway"
       test: "nilaway --help"
+  go-wrap:
+    github: "github.com/hexdigest/gowrap"
+    package:
+      project: "github.com/hexdigest/gowrap"
+      module: "github.com/hexdigest/gowrap/cmd/gowrap"
+    binary:
+      name: "gowrap"
+      test: "gowrap --help"
