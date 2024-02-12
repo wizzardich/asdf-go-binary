@@ -31,3 +31,11 @@ binaries:
     binary:
       name: "gowrap"
       test: "gowrap --help"
+  goose:
+    github: "github.com/pressly/goose"
+    package:
+      project: "github.com/pressly/goose/v3"
+      module: "github.com/pressly/goose/v3/cmd/goose"
+    binary:
+      name: "goose"
+      test: "goose --help"
