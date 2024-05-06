@@ -40,7 +40,7 @@ binaries:
       name: "goose"
       test: "goose --help"
   asyncapi-codegen:
-    github: "https://github.com/lerenn/asyncapi-codegen"
+    github: "github.com/lerenn/asyncapi-codegen"
     package:
       project: "github.com/lerenn/asyncapi-codegen"
       module: "github.com/lerenn/asyncapi-codegen/cmd/asyncapi-codegen"
