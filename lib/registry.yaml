@@ -47,3 +47,11 @@ binaries:
     binary:
       name: "asyncapi-codegen"
       test: "asyncapi-codegen --help"
+  grpcurl:
+    github: "github.com/fullstorydev/grpcurl"
+    package:
+      project: "github.com/fullstorydev/grpcurl"
+      module: "github.com/fullstorydev/grpcurl/cmd/grpcurl"
+    binary:
+      name: "grpcurl"
+      test: "grpcurl --help"
